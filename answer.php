@@ -59,7 +59,6 @@
         } else {
           echo ("Not a triangle");
         }
-        // Calculatoin 
         ?>
         <br /> <br>
         <div class="page-content-answer">
