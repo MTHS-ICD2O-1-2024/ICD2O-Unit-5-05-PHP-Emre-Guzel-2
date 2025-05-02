@@ -41,13 +41,13 @@
         $lengthB = $_GET["length-B"];
         $lengthC = $_GET["length-C"];
 
-        //Seetinng the if and else statments 
-
+        // Showing this to the user
         echo "If length A is: " . $lengthA . "<br>";
         echo "If length B is: " . $lengthB . "<br>";
         echo "If length C is: " . $lengthC . "<br>";
         "<br>";
         "<br>";
+        //Seetinng the if and else statments 
         if ($lengthA + $lengthB > $lengthC && $lengthA + $lengthC > $lengthB && $lengthB + $lengthC > $lengthA) {
           if ($lengthA == $lengthB && $lengthB == $lengthC) {
             echo ("Equilateral triangle");
