@@ -34,21 +34,21 @@
         <h2 class="length">Enter length of the traingles</h2>
         <div class="mdl-textfield mdl-js-textfield" id="base-a">
           <p class="age">Enter the Base A of the traingle </p>
-          <input type="number" class="mdl-textfield__input" type="number" pattern="-?[0-9]*(\.[0-9]+)?" name="lengthA">
+          <input type="number" class="mdl-textfield__input" type="number" pattern="-?[0-9]*(\.[0-9]+)?" name="length-A">
           <label class="mdl-textfield__label" for="lengthA"></label>
           <span class="mdl-textfield__error">Input is not a number!</span>
         </div>
         <br>
         <div class="mdl-textfield mdl-js-textfield" id="base-a">
           <p class="age"> Enter the Base B of the traingle </p>
-          <input type="number" class="mdl-textfield__input" type="number" pattern="-?[0-9]*(\.[0-9]+)?" name="lengthB">
+          <input type="number" class="mdl-textfield__input" type="number" pattern="-?[0-9]*(\.[0-9]+)?" name="length-B">
           <label class="mdl-textfield__label" for="lengthB"></label>
           <span class="mdl-textfield__error">Input is not a number!</span>
         </div>
         <br>
         <div class="mdl-textfield mdl-js-textfield" id="base-a">
           <p class="age">Enter the Base C of the triangle</p>
-          <input type="number" class="mdl-textfield__input" type="number" pattern="-?[0-9]*(\.[0-9]+)?" name="lengthC">
+          <input type="number" class="mdl-textfield__input" type="number" pattern="-?[0-9]*(\.[0-9]+)?" name="length-C">
           <label class="mdl-textfield__label" for="lengthC"></label>
           <span class="mdl-textfield__error">Input is not a number!</span>
         </div>

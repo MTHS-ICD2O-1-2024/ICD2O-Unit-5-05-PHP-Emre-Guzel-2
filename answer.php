@@ -37,20 +37,29 @@
         <?php
 
         // Setting the varibles
-        $age = $_GET["age"];
-        echo "If age is" . " " . ($age) . " ";
+        $lengthA = $_GET["length-A"];
+        $lengthB = $_GET["length-B"];
+        $lengthC = $_GET["length-C"];
+
+        //Seetinng the if and else statments 
+
+        echo "If length A is: " . $lengthA . "<br>";
+        echo "If length B is: " . $lengthB . "<br>";
+        echo "If length C is: " . $lengthC . "<br>";
         "<br>";
         "<br>";
-        // Calculatoin 
-        if ($age >= 17) {
-          echo ("You can watch R-rated movie alone");
-        } elseif ($age >= 13) {
-          echo ("You can watch PG-13 movie alone");
-        } elseif ($age >= 5) {
-          echo ("You can watch G or PG movie alone.");
+        if ($lengthA + $lengthB > $lengthC && $lengthA + $lengthC > $lengthB && $lengthB + $lengthC > $lengthA) {
+          if ($lengthA == $lengthB && $lengthB == $lengthC) {
+            echo ("Equilateral triangle");
+          } else if ($lengthA == $lengthB || $lengthA == $lengthC || $lengthB == $lengthC) {
+            echo ("Isosceles triangle");
+          } else {
+            echo ("Scalene triangle");
+          }
         } else {
-          echo (" Uh, you're too young for most things.");
+          echo ("Not a triangle");
         }
+        // Calculatoin 
         ?>
         <br /> <br>
         <div class="page-content-answer">
@@ -58,7 +67,7 @@
         </div>
         <br>
         <div class="tempurature">
-          <img class="Calculate" src="images/movie_ratings.jpg" alt="Movie ">
+          <img class="Calculate" src="images/type_of_traingles.jpg" alt="Movie ">
         </div>
       </main>
     </div>
